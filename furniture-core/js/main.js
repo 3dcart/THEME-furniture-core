@@ -84,11 +84,15 @@ function moveMenu() {
 
     if (respWidth < 767) {
         jQuery('#menulinks').appendTo('#mobile-menulinks');
-        jQuery('#categories').appendTo('#mobile-categories');
     }
     else {
         jQuery('#menulinks').appendTo('#menulinks-outer');
-        jQuery('#categories').appendTo('#navbar');
+    }
+    if (respWidth < 1023) {
+    	jQuery('#categories').appendTo('#mobile-categories');
+    }
+    else {
+    	jQuery('#categories').appendTo('#navbar');
     }
 }
 
