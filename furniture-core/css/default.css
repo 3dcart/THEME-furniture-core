@@ -1035,3 +1035,8 @@ body.view-cart .middleContent {
 		line-height: 1.5;
 	}
 }
+@media(min-width: 768px) {
+    .revealOnScroll {
+        opacity:0;
+    }
+}
