@@ -1,8 +1,19 @@
 /*
 ** Bootstrap over-rides
 */
-
-
+.product-items.productList .product-item .img a {
+    display: block;
+    position: initial;
+}
+.homepage-blog-posts .post-image-container img {
+    height: 200px;
+}
+@media (max-width: 991px){
+.product-items.productList .product-item .img {
+    padding-right: 0;
+    width: 32%;
+}
+}
 body {
     /*font-family: 'Montserrat', sans-serif;*/
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -645,7 +656,7 @@ span.freeshipping {
 */
 .products-section {
     background-color: #fff;
-    padding: 60px 0;
+    padding: 20px 0;
 }
 .products-section h2 {
     text-align: center;
