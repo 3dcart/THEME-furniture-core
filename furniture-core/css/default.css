@@ -14,6 +14,21 @@
     width: 32%;
 }
 }
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
 body {
     /*font-family: 'Montserrat', sans-serif;*/
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -455,7 +470,7 @@ ul.extrapages li a {
     font-weight: 400;
     line-height:36px;
 }
-
+.copyright a{color: #fff;}
 .mailist-box {
     width: 300px;
     margin: auto;
@@ -550,7 +565,7 @@ ul.social-icons li.social-icons-label {
     margin-bottom: 10px;
     text-align: center;
 }
-.social-icons h3 {
+.social-icons h3,.social-icons h2 {
     margin: 0 0 15px;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-size: 18px;
@@ -658,7 +673,7 @@ span.freeshipping {
     background-color: #fff;
     padding: 20px 0;
 }
-.products-section h2 {
+.products-section h2,.products-section h1 {
     text-align: center;
     color: #80607d;
     font-size: 32px;
