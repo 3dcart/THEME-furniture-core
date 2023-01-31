@@ -141,6 +141,17 @@
                 </div>
                 
             </div>
+            <div class="col-sm-12 visible-xs">
+                <div id="searchBox1" class="searchBox">
+                    <form method="get" name="searchForm" action="search.asp" role="search">
+                        <div class="search-form">
+                            <input type="text" id="searchlight1" name="keyword" value="" placeholder="[frame_search]" class="search-text form-control" aria-label="search input"/>
+                            <button type="submit" class="search-submit btn" aria-label="search button"><span role="presentation" class="icon-search"></span></button>
+                        </div>
+                    </form>
+                    <div class="clear"></div>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -405,6 +416,7 @@
     <script type="text/javascript">
         jQuery(function () {
             jQuery('#searchlight').searchlight('/search_quick.asp');
+            jQuery('#searchlight1').searchlight('/search_quick.asp');
         });
     </script>
     <!--END: quicksearch-->

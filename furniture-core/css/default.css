@@ -751,8 +751,16 @@ span.freeshipping {
         position: static;
     }
     .searchBox {
-        padding: 20px 0 0;
+        padding: 0px 0 0;margin-bottom: 15px;
     }
+    .search-form .search-text {
+    color: #000;
+}
+    .search-form .search-submit {
+    right: 0;
+    color: #000;
+        left: auto;
+}
     .search-form-col {
         clear: both;
     }
